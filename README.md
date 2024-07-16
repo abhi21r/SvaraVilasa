@@ -60,17 +60,27 @@ SvaraVilasa aims to deliver a captivating music streaming experience, combining 
 
 Here are some glimpse of our pages:
 
-Home Page
+1.Home Page
 ![1](https://github.com/user-attachments/assets/2f70fd29-5a2c-44b0-805e-a0995e297c92)
+2. Home Page before Login
 ![2](https://github.com/user-attachments/assets/11cf75fb-6f07-46ab-be40-8b24b8607473)
+3.Sign Up Page
 ![3](https://github.com/user-attachments/assets/ec9493ad-29b1-4580-9536-096a44b6d3a4)
+4.Login Page
 ![4](https://github.com/user-attachments/assets/45b6b0a9-43cf-4a73-8cbf-0f1f2031d296)
+5.Home Page after Login
 ![5](https://github.com/user-attachments/assets/b0401638-5783-4442-a634-7cef73196a2d)
+6.My Account Page
 ![6](https://github.com/user-attachments/assets/ec47db1a-018c-4317-8d60-f4d3476cffd8)
+7.Playlists Page
 ![7](https://github.com/user-attachments/assets/4a7ba96a-1b0d-49a8-bdd8-56459829038b)
+8.About Us Page
 ![8](https://github.com/user-attachments/assets/b3a78825-876e-49e5-b9e1-741288abcec2)
+9.Contact Us Page
 ![9](https://github.com/user-attachments/assets/41933095-1d3c-4d6f-a478-dddc98abf989)
+10.MusicPlayer
 ![10](https://github.com/user-attachments/assets/f646d9f7-cbd1-44e7-9293-a7d9fbbe021f)
+11.Uses of Xampp
 ![11](https://github.com/user-attachments/assets/04630fcd-6bfb-4836-9b42-891570b32610)
 ![12](https://github.com/user-attachments/assets/de0edeb8-8db1-40f5-9215-2e58040b920c)
 
