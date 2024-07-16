@@ -108,7 +108,7 @@ SvaraVilasa aims to deliver a captivating music streaming experience, combining 
 
 9. **Music Player:**
    - Integrated player with background animations.
-   - 
+    
 Here are some glimpse of our pages:
 
 1.Home Page
