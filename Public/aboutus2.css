@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Public/rm383-14.jpg);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(29, 28, 82, 0.747);
+}
+
+.brand h1 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.aboutus-container {
+    background-color: rgba(29, 28, 82, 0.747);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-top: 10%;
+}
+
+.aboutus-box {
+    padding: 20px;
+    text-align: center;
+    background-color: #6dd67f31;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: rgb(243, 133, 29);
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

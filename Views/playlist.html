@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Public/playlist.css">
+  <title>SvaraVilasa - Playlist</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="brand">
+      <h1>SvaraVilasa</h1>
+    </div>
+    <div class="navbar-links">
+      <a href="index.php">Home</a>
+      <a href="myaccount.html">My Account</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="ContactUs.html">Contact Us</a>
+    </div>
+  </div>
+
+<div class="playlist-container">
+    <h2>Predefined Playlists</h2>
+    <div class="predefined-playlists">
+      <div class="playlist" onclick="openPlaylist('Sad Songs')">Sad Songs</div>
+      <div class="playlist" onclick="openPlaylist('Workout Music')">Workout Music</div>
+    </div>
+  
+    <h2>Your Playlists</h2>
+    <div class="user-playlists">
+    </div>
+  
+    <button id="createPlaylistBtn" onclick="createPlaylist()">Create Playlist</button>
+  </div>
+
+  <script>
+    // Function to open a playlist (replace with actual behavior)
+    function openPlaylist(playlistName) {
+      alert('Opening ' + playlistName);
+    }
+
+    // Function to create a new playlist (replace with actual behavior)
+    function createPlaylist() {
+      alert('Creating a new playlist');
+    }
+  </script>
+</body>
+</html>

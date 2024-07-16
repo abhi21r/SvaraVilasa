@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../Public/Contactus.css">
+  <title>Contact: SvaraVilasa</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="brand">
+     <a href="index.php" target="_self"><h1>SvaraVilasa</h1></a> 
+    </div>
+    <div class="navbar-links">
+      <a href="index.php" target="_self">Home</a>
+      <a href="playlist.html" target="_self">Playlist</a>
+      <a href="aboutus.html" target="_self">About Us</a>
+      
+    </div>
+  </div>
+
+  <div class="contactus-container">
+    <div class="contactus-box">
+      <h1>Let's Chit Chat</h1>
+      <form action="/contact" method="POST">
+        <div class="name-container">
+          <div class="input-group">
+            <input type="text" id="firstName" name="firstName" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>First Name</label>
+          </div>
+          <div class="input-group">
+            <input type="text" id="lastName" name="lastName" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Last Name</label>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <input type="number" id="mobileNumber" name="mobileNumber" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Mobile Number</label>
+        </div>
+
+        <div class="input-group">
+          <input type="email" id="email" name="email" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Email</label>
+        </div>
+
+        <div class="input-group">
+          <textarea id="description" name="description" rows="4" required></textarea>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Description</label>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

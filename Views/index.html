@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Public/homepage.css" />
+    <title>SvaraVilasa: Home</title>
+</head>
+
+<body>
+    <div id="welcomePopup" class="welcome-popup">
+        <h2>Welcome to SvaraVilasa!</h2>
+    </div>
+
+    <div class="navbar">
+        <div class="brand">
+           <a href="index1.html" target="_self"><h1>SvaraVilasa</h1></a> 
+        </div>
+        <div class="navbar-links">
+            <a href="aboutus2.html" target="_self">About Us</a>
+            <a href="signup.php" target="_self">Sign Up</a>
+            <a href="Login.php" target="_self">Login</a>
+        </div>
+    </div>
+    <!-- <p style="color: red;">kjfbjfewbrbkerbgkeg</p> -->
+
+    <div class="homepage-container">
+        <div class="hero">
+            <h1>Discover a World of Music</h1>
+            <p>Sign up now to unlock a personalized music experience!</p>
+        </div>
+
+        <div class="music-boxes">
+            <a href="Login.php"><div class="music-box" onclick="openCategory('Sad Songs')">
+                Sad Songs
+            </div></a>
+            <a href="Login.php"> <div class="music-box" onclick="openCategory('Romantic Songs')">
+                Romantic Songs
+            </div></a>
+            <a href="Login.php"><div class="music-box" onclick="openCategory('Workout Musics')">
+                Workout Musics
+            </div></a>
+            <a href="Login.php"><div class="music-box" onclick="openCategory('Devotional and Prayers')">
+                Devotional and Prayers
+            </div></a>
+            <a href="Login.php"><div class="music-box" onclick="openCategory('English Songs')">
+                English Songs
+            </div></a>
+            <a href="Login.php"><div class="music-box" onclick="openCategory('Punjabi Songs')">
+                Punjabi Songs
+            </div></a>
+            <a href="Login.php"><div class="music-box" onclick="openCategory('80s Songs')">
+                80s Songs
+            </div></a>
+            <a href="Login.php">  <div class="music-box" onclick="openCategory('90s Songs')">
+                90s Songs
+            </div></a>
+           
+        </div>
+
+        <div class="singer-boxes">
+            <div class="singer-box" id="Arijit" onclick="openCategory('Arijit Singh') ">
+                
+            </div>
+            <div class="singer-box" id="Lata" onclick="openCategory('Lata Mangeshkar')">
+                
+            </div>
+            <div class="singer-box" id="Mohammad" onclick="openCategory('Mohammad Rafi')">
+                
+            </div>
+            <div class="singer-box" id="Kishor" onclick="openCategory('Kishor Kumar')">
+                
+            </div>
+            <div class="singer-box" id="Udit" onclick="openCategory('Udit Narayan')">
+                
+            </div>
+            <div class="singer-box" id="Sanu" onclick="openCategory('Kumar Sanu')">
+                
+            </div>
+            <div class="singer-box" id="Sonu" onclick="openCategory('Sonu Nigam')">
+                
+            </div>
+            <div class="singer-box" id="Akon" onclick="openCategory('Akon')">
+                
+            </div>
+            <div class="singer-box" id="Charlie" onclick="openCategory('Charlie Puth')">
+                
+            </div>
+            <!-- Add more boxes as needed -->
+        </div>
+    </div>
+
+    <script>
+        // Welcome Popup
+        setTimeout(() => {
+            document.getElementById("welcomePopup").style.display = "none";
+        }, 1000);
+
+        // Function to open music category (replace with actual behavior)
+        function openCategory(category) {
+            alert("Opening " + category);
+        }
+    </script>
+</body>
+
+</html>

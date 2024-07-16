@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Public/Bck.jpg);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(123, 61, 238, 0.13);
+}
+
+.brand h1 {
+    color: white;
+    font-size: 24px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-container {
+    background-color: rgba(29, 28, 82, 0.747);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto; 
+    margin-top: 18%;
+}
+
+.login-box {
+    padding: 20px;
+    text-align: center;
+    background-color: #6dd67f31;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: rgb(240, 85, 85);
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #1DB954;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #f39d3a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
